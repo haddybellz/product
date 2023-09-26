@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>product</title>
+    <link  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <style>
+        *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.3rem;
+   background-color: white;
+   /* background-image: url(https://media.istockphoto.com/id/1172940354/vector/vector-circle-tech-with-light-blue-and-lamp-bulb-on-technology-background.jpg?s=612x612&w=0&k=20&c=8bUJ3-cIkAQz1E-1mugZodjYoKNt5g9k0t7b-SB8qH8=);
+    background-repeat: none;
+    background-position: center;
+    background-size: cover;*/
+    height: 100vh;
+    color: white;
+    padding: 20px;
+}
+.container{
+    width: 1000px;
+    
+}
+h1{
+    text-align: center;
+    margin-bottom: 60px;
+    font-size: 50px;
+    color: aquamarine;
+}
+.all-product{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.products{
+    overflow: hidden;
+    background:whitesmoke;
+    color: black;
+    text-align: center;
+    width: 200px;
+    height: 280px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    margin: 20px;
+}
+.products:hover img{
+    scale: 1.4;
+}
+.products:hover{
+    box-shadow: 5px 10px 10px aquamarine;
+}
+.products img{
+    height: 80px;
+    margin: 20px;
+    transition: all 0.3s;
+}
+.products a:link, .products a:visited{
+    color: whitesmoke;
+    text-decoration: none;
+    display: inline-block;
+    background-color: aquamarine;
+    padding: 3px 4px;
+    margin-top: 15px;
+    border-radius: 5px;
+    
+
+}
+.checked{
+   color: orange;
+}
+
+@media (max-width: 600px) {
+    
+    .container{
+        width:100%;
+    }
+}
+@media (min-width: 601px) {
+    
+    .container{
+        width:100%;
+    }
+}
+@media (min-width: 768px) {
+    
+    .container{
+        width:100%;
+    }
+}
+@media (min-width: 992px) {
+    
+    .container{
+        width:100%;
+    }
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+    <section class="profile">
+        <h1>Our Products</h1>
+        <div class="all-product">
+            <div class="products">
+                <img src="/image/pics5/light1 (1).jpg" width="80px" height="80px" alt="">
+                <div class="product-info">
+                    <h4 class="pro-title">Ceiling Light</h4>
+                    <p class="pro-price">$120</p>
+                    
+                     <i class="fa fa-star checked"></i>
+                     <i class="fa fa-star checked"></i>
+                     <i class="fa fa-star checked"></i>
+                     <i class="fa fa-star checked"></i>
+                     <i class="fa fa-star checked"></i>
+                    
+                    <a class="pro-btn" href="">Buy now</a>
+                </div>
+            </div>
+            <div class="products">
+                <img src="/image/pics5/light1 (3).jpg" width="80px" height="80px" alt="">
+                <div class="product-info">
+                    <h4 class="pro-title">Ceiling Light</h4>
+                    <p class="pro-price">$50</p>
+                    <i class="fa fa-star checked"></i>
+                     <i class="fa fa-star checked"></i>
+                     <i class="fa fa-star checked"></i>
+                     <i class="fa fa-star"></i>
+                     <i class="fa fa-star"></i>
+                    <a class="pro-btn" href="">Buy now</a>
+                </div>
+            </div>
+            <div class="products">
+                <img src="/image/pics5/light1 (5).jpg" width="80px" height="80px" alt="">
+                <div class="product-info">
+                    <h4 class="pro-title">Ceiling Light</h4>
+                    <p class="pro-price">$100</p>
+                    <i class="fa fa-star checked"></i>
+                     <i class="fa fa-star checked"></i>
+                     <i class="fa fa-star checked"></i>
+                     <i class="fa fa-star"></i>
+                     <i class="fa fa-star"></i>
+                    <a class="pro-btn" href="">Buy now</a>
+                </div>
+            </div>
+            <div class="products">
+                <img src="/image/pics5/light1 (7).jpg" width="80px" height="80px" alt="">
+                <div class="product-info">
+                    <h4 class="pro-title">Floor Light</h4>
+                    <p class="pro-price">$96</p>
+                    <i class="fa fa-star checked"></i>
+                     <i class="fa fa-star checked"></i>
+                     <i class="fa fa-star checked"></i>
+                     <i class="fa fa-star checked"></i>
+                     <i class="fa fa-star"></i>
+                    <a class="pro-btn" href="">Buy now</a>
+                </div>
+            </div>
+            <div class="products">
+                <img src="/image/pics5/light1 (8).jpg" width="80px" height="80px" alt="">
+                <div class="product-info">
+                    <h4 class="pro-title">Chandelier</h4>
+                    <p class="pro-price">$500</p>
+                    <i class="fa fa-star checked"></i>
+                     <i class="fa fa-star checked"></i>
+                     <i class="fa fa-star checked"></i>
+                     <i class="fa fa-star checked"></i>
+                     <i class="fa fa-star checked"></i>
+                    <a class="pro-btn" href="single.html">Buy now</a>
+                </div>
+            </div>
+            <div class="products">
+                <img src="/image/pics5/light4.jpg" width="80px" height="80px" alt="">
+                <div class="product-info">
+                    <h4 class="pro-title">Wall Lamp</h4>
+                    <p class="pro-price">$20</p>
+                    <i class="fa fa-star checked"></i>
+                     <i class="fa fa-star checked"></i>
+                     <i class="fa fa-star checked"></i>
+                     <i class="fa fa-star checked"></i>
+                     <i class="fa fa-star"></i>
+                    <a class="pro-btn" href="">Buy now</a>
+                </div>
+            </div>
+            <div class="products">
+                <img src="/image/pics5/light3.jpg" width="80px" height="80px" alt="">
+                <div class="product-info">
+                    <h4 class="pro-title">Chandelier</h4>
+                    <p class="pro-price">$16</p>
+                    <i class="fa fa-star checked"></i>
+                     <i class="fa fa-star checked"></i>
+                     <i class="fa fa-star checked"></i>
+                     <i class="fa fa-star checked"></i>
+                     <i class="fa fa-star"></i>
+                    <a class="pro-btn" href="">Buy now</a>
+                </div>
+            </div>
+            <div class="products">
+                <img src="/image/pics5/pic1.jpg" width="80px" height="80px" alt="">
+                <div class="product-info">
+                    <h4 class="pro-title">Wall Lamp</h4>
+                    <p class="pro-price">$8</p>
+                    <i class="fa fa-star checked"></i>
+                     <i class="fa fa-star checked"></i>
+                     <i class="fa fa-star checked"></i>
+                     <i class="fa fa-star checked"></i>
+                     <i class="fa fa-star"></i>
+                    <a class="pro-btn" href="">Buy now</a>
+                </div>
+            </div>
+            <div class="products">
+                <img src="/image/pics5/pic2.jpg" width="80px" height="80px" alt="">
+                <div class="product-info">
+                    <h4 class="pro-title">Floor Lamp</h4>
+                    <p class="pro-price">$1000</p>
+                    <i class="fa fa-star checked"></i>
+                     <i class="fa fa-star checked"></i>
+                     <i class="fa fa-star checked"></i>
+                     <i class="fa fa-star checked"></i>
+                     <i class="fa fa-star"></i>
+                    <a class="pro-btn" href="">Buy now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+  </div>
+    
+</body>
+</html>
